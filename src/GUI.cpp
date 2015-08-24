@@ -38,7 +38,7 @@ void GUI::initVars()
 	imageSizeX = 512;
 	imageSizeY = 288;
 
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; true; i++)
 	{
 		try
 		{
@@ -121,7 +121,7 @@ void GUI::onMenuAbout(wxCommandEvent& event)
 	wxString message = _("GetWallpaper");
 	message += _("\nVersion: " + m_version);
 	message += _("\nAuthor: Erik Welander (Kira)");
-	message += _("\Contact:");
+	message += _("\nContact:");
 	message += _("\nFacebook: https://www.facebook.com/erik.welander");
 	message += _("\nEmail: mail@erikwelander.se");
 	message += _("\nWeb: http://erikwelander.se/");
